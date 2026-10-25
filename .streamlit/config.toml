@@ -1,0 +1,7 @@
+[client]
+# Hide the Deploy button and the developer menu (Rerun, Settings, Clear cache…)
+toolbarMode = "minimal"
+
+# Show customers a generic error instead of a stack trace with
+# Copy / Ask Google / Ask ChatGPT buttons. Full errors still print in the terminal.
+showErrorDetails = "none"

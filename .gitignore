@@ -217,6 +217,8 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-chroma_store/
+# chroma_store/ is committed on purpose so the deployed app has its vector DB.
+# Delete it and re-run the ingest scripts whenever the data in data/ changes.
+
 # macOS
 .DS_Store
